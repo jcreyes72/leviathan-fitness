@@ -4,19 +4,32 @@ import './Header.css'
 const Header = () => {
   return (
     <div className="header">
-        <div className="header top">
-            <div className="top-container">
-                <div className="top-logo">
-                    <h5>LEVIATHAN</h5>
+        <div className="header-top">
+            <div className="top-logo">
+                <h5 className='small-logo'>LEVIATHAN</h5>
+            </div>
+            <div className="space"></div>
+            <div className="link-container">
+                <div className="link-wrap">
+                    <a href="/" className="gift-cards">Gift Cards</a>
+                </div>
+                <div className="link-wrap">
+                    <a href="/" className="contact-us">Contact Us</a>
+                </div>
+                <div className="link-wrap">
+                    <a href="/" className="order-status">Order Status</a>
+                </div>
+                <div className="link-wrap">
+                    <a href="/" className="live-chat">Live Chat</a>
                 </div>
             </div>
         </div>
-        <div className="header middle">
+        <div className="header-middle">
             <div className="middle-container">
                 MIDDLE HEADER
             </div>
         </div>
-        <div className="header bottom">
+        <div className="header-bottom">
             <div className="bottom-container">
                 BOTTOM HEADER
             </div>

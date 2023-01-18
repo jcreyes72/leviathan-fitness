@@ -1,7 +1,55 @@
 .header {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-top {
+    background-color: white;
+    display: flex;
+    height: 2.5rem;
 }
 
 .top-logo {
-    font-size: 10px;
+    position: relative;
+    margin-left: 3rem;
 }
+
+.space {
+    flex-grow: 1;
+}
+
+.small-logo {
+    padding-top: 0.5em;
+    position: relative;
+    font-size: larger;
+    color: rgb(133, 133, 133)
+}
+
+
+
+.header-middle {
+    background-color: black;
+    height: 5rem;
+    color: white;
+}
+
+.link-container {
+    display: flex;
+    /*border: 1px solid red;*/
+    margin-right: 3rem;
+}
+
+.link-wrap {
+    /*border: 1px solid green;*/
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.link-wrap a {
+    text-decoration: none;
+}
+
+
+
