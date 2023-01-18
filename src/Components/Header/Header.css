@@ -11,6 +11,12 @@
     height: 2.5rem;
 }
 
+@media (max-width: 1025px) {
+    .header-top {
+        display: none;
+    }
+}
+
 .top-logo {
     position: relative;
     margin-left: 3rem;
