@@ -25,8 +25,16 @@ const Header = () => {
             </div>
         </div>
         <div className="header-middle">
-            <div className="middle-container">
-                MIDDLE HEADER
+            <div className="middle-logo">
+                <h5 className='big-logo'>LEVIATHAN</h5>
+            </div>
+            <div className="search-container">
+                <input 
+                    type="text" 
+                    id="search-bar" 
+                    placeholder="Search"
+                    className='search'
+                />
             </div>
         </div>
         <div className="header-bottom">

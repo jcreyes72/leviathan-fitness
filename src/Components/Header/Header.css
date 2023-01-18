@@ -34,13 +34,6 @@
 }
 
 
-
-.header-middle {
-    background-color: black;
-    height: 5rem;
-    color: white;
-}
-
 .link-container {
     display: flex;
     /*border: 1px solid red;*/
@@ -56,8 +49,49 @@
 
 .link-wrap a {
     text-decoration: none;
-    color:rgb(133, 133, 133)
+    color:#666666;
+    cursor: pointer;
 }
+
+
+
+
+
+.header-middle {
+    background-color: black;
+    height: 5rem;
+    color: white;
+    display: flex;
+}
+
+.middle-logo {
+    /*border: 1px solid red;*/
+    position: relative;
+    margin-left: 3rem;
+}
+
+.big-logo {
+    font-size: 48px;
+    padding-top: 0.75rem;
+}
+
+.search-container {
+    padding-top: 1.25rem;
+    /*border: 1px solid green;*/
+    margin-left: 5rem;
+    width: 40%
+}
+
+.search {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.search::placeholder {
+    color:rgb(100, 100, 100)
+}
+
+
 
 
 
