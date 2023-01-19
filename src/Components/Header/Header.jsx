@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { BiSearchAlt2 as SearchIcon} from "react-icons/bi";
 
 const Header = () => {
   return (
@@ -29,12 +30,17 @@ const Header = () => {
                 <h5 className='big-logo'>LEVIATHAN</h5>
             </div>
             <div className="search-container">
-                <input 
-                    type="text" 
-                    id="search-bar" 
-                    placeholder="Search"
-                    className='search'
-                />
+                <div className="search-wrapper">
+                    <input 
+                        type="text" 
+                        id="search-bar" 
+                        placeholder="Search"
+                        className='search'
+                    />
+                    <div className="search-icon-wrapper">
+                        <SearchIcon className='search-icon'/>
+                    </div>
+                </div>
             </div>
         </div>
         <div className="header-bottom">
