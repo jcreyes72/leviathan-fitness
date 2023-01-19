@@ -42,6 +42,14 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <div className="shipping-deals-container">
+                <div className="shipping-deals-button">
+                    <span className="deals-text">DAILY SHIPPING DEALS</span>
+                </div>
+                <div className="text-slideshow">
+
+                </div>
+            </div>
         </div>
         <div className="header-bottom">
             <div className="bottom-container">

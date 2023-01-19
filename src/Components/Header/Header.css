@@ -130,6 +130,35 @@
 }
 
 
+/* This holds onto both our daily shipping deals button */
+/* and our text slideshow */
+.shipping-deals-container{
+    border: 1px solid green;
+    width: 18em;
+    margin-left: 2.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shipping-deals-button {
+    width: 50%;
+    height: 15%;
+    background-color: rgb(234, 2, 2);
+    margin-bottom: 2rem;
+}
+
+.deals-text {
+    color: white;
+    font-size: 10px;
+    
+}
+
+
+.text-slideshow {
+    border: 1px solid yellow;
+}
+
 
 
 
