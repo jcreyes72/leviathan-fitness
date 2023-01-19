@@ -56,39 +56,51 @@
 
 
 
-
+/* Large section of header, black background */
 .header-middle {
     background-color: black;
-    height: 5rem;
+    height: 7rem;
     color: white;
     display: flex;
 }
 
+/* Big LEVIATHAN text */
 .middle-logo {
     /*border: 1px solid red;*/
     position: relative;
     margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .big-logo {
     font-size: 48px;
-    padding-top: 0.75rem;
+    /*padding-top: 2rem;*/
+    height: 50%;
+    position: relative;
 }
 
 .search-container {
-    padding-top: 1.25rem;
+    
     /*border: 1px solid green;*/
-    margin-left: 5rem;
-    width: 40%
+    
+    width: 80%;
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
 }
 
 .search {
-    padding: 0.5rem;
-    width: 100%;
+    width: 50%;
+    height: 35%;
+    position: relative;
 }
 
 .search::placeholder {
-    color:rgb(100, 100, 100)
+    color:rgb(83, 83, 83);
+    font-size: 110%;
 }
 
 
