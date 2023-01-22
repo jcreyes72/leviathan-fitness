@@ -185,10 +185,21 @@
 }
 
 
-.fade {
+.shipping-deals-text {
     transition: opacity 1s;
     opacity: 1;
-  }
+    font-size: 13px;
+}
+
+.out {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+.shipping-deals-text-red{
+    color: red;
+}
 
 
 

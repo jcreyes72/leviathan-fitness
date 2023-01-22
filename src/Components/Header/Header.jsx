@@ -71,7 +71,7 @@ const Header = () => {
                 </div>
                 <div className="text-container">
                     <div className="text-slideshow">
-                        <p className="shipping-deals-text fade">BUY A RIG AND YOUR ENTIRE ORDER SHIPS FREE</p>
+                        <p className="shipping-deals-text">BUY A RIG AND YOUR ENTIRE ORDER SHIPS FREE</p>
                     </div>
                 </div>
             </div>
