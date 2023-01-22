@@ -203,3 +203,36 @@
 
 
 
+.navigation {
+    background-color: #666666;
+    border: 2px solid magenta;
+    display: flex;
+    align-items:flex-start;
+    height: 3rem;
+}
+
+.menu-items {
+    height: 100%;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid greenyellow;
+    text-decoration: none;
+    color: white;
+}
+
+

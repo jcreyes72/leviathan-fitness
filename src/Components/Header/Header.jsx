@@ -77,8 +77,22 @@ const Header = () => {
             </div>
         </div>
         <div className="header-bottom">
-            <div className="bottom-container">
-                BOTTOM HEADER
+            <div className="nav-bar">
+                <ul className='navigation'>
+                    <li className='menu-items'>
+                        <a href="/" className='button drop-down red'>Shop</a>
+                        <a href="/" className='button'>Equipment for Crossfit</a>
+                        <a href="/" className='button'>New Gear</a>
+                        <a href="/" className='button'>Barbells</a>
+                        <a href="/" className='button'>Plates</a>
+                        <a href="/" className='button'>Rigs and Racks</a>
+                        <a href="/" className='button'>Shoes</a>
+                        <a href="/" className='button'>Apparel</a>
+                        <a href="/" className='button'>3 Ships Free</a>
+                        <a href="/" className='button'>Zeus</a>
+                        <a href="/" className='button drop-down'>The Index</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
