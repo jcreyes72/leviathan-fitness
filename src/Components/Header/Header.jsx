@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { BiSearchAlt2 as SearchIcon} from "react-icons/bi";
+import {RiArrowDropDownLine as DropDownIcon} from "react-icons/ri";
 
 const Header = () => {
 
@@ -80,7 +81,7 @@ const Header = () => {
             <div className="nav-bar">
                 <ul className='navigation'>
                     <li className='menu-items'>
-                        <a href="/" className='button drop-down red'>Shop</a>
+                        <a href="/" className='button drop-down red'>Shop <DropDownIcon className='drop-icon'/></a>
                         <a href="/" className='button'>Equipment for Crossfit</a>
                         <a href="/" className='button'>New Gear</a>
                         <a href="/" className='button'>Barbells</a>
