@@ -2,6 +2,8 @@ import React from 'react'
 import './Header.css'
 import { BiSearchAlt2 as SearchIcon} from "react-icons/bi";
 import {RiArrowDropDownLine as DropDownIcon} from "react-icons/ri";
+import { CgProfile as Profile } from "react-icons/cg";
+import { CgShoppingCart as Cart } from "react-icons/cg";
 
 const Header = () => {
 
@@ -75,6 +77,11 @@ const Header = () => {
                         <p className="shipping-deals-text">BUY A RIG AND YOUR ENTIRE ORDER SHIPS FREE</p>
                     </div>
                 </div>
+            </div>
+            <div className="icons-right">
+                <Profile className='login-pic'/>
+                <span>Log In</span>
+                <Cart className='shopping-cart'/>
             </div>
         </div>
         <div className="header-bottom">

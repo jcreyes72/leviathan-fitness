@@ -1,14 +1,14 @@
 .header {
-    width: 100%;
+    min-width: fit-content;
     margin: 0;
     padding: 0;
-    
 }
 
 .header-top {
     background-color: white;
     display: flex;
     height: 2.5rem;
+    width: 100%;
 }
 
 @media (max-width: 1025px) {
@@ -256,8 +256,34 @@ ul {
 }
 
 
-@media (max-width: 825px) {
+@media (max-width: 865px) {
     .shipping-deals-container {
         display: none;
     }
+}
+
+
+.icons-right {
+    height: 50%;
+    margin-top: 2em;
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-pic {
+    color: white;
+    font-size: 20px;
+}
+
+.shopping-cart {
+    color: white;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.icons-right span {
+    color: white;
+    margin-left: 0.5em;
 }
