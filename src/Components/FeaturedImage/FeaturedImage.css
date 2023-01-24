@@ -1,6 +1,10 @@
-.poster-wrapper {
+.big-poster {
     width: 100%;
     display: flex;
-    height: 40em;
-    border: 2px solid magenta;
+    height: auto;
+}
+
+.main-image {
+    width: 100%;
+    
 }
