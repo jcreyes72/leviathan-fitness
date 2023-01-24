@@ -28,6 +28,7 @@ const Header = () => {
       }, 5000);
 
   return (
+    <div className="main-body">
     <div className="header">
         <div className="header-top">
             <div className="top-logo">
@@ -79,9 +80,13 @@ const Header = () => {
                 </div>
             </div>
             <div className="icons-right">
-                <Profile className='login-pic'/>
+                <div className="profile">
+                    <Profile className='login-pic'/>
+                </div>
                 <span>Log In</span>
-                <Cart className='shopping-cart'/>
+                <div className="cart-icon">
+                    <Cart className='shopping-cart'/>
+                </div>
             </div>
         </div>
         <div className="header-bottom">
@@ -89,20 +94,41 @@ const Header = () => {
                 <ul className='navigation'>
                     <li className='menu-items'>
                         <a href="/" className='button drop-down red'>Shop <DropDownIcon className='drop-icon'/></a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Equipment for Crossfit</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>New Gear</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Barbells</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Plates</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Rigs and Racks</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Shoes</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Apparel</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>3 Ships Free</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button'>Zeus</a>
+                    </li>
+                    <li className='menu-items'>
                         <a href="/" className='button drop-down'>The Index</a>
                     </li>
                 </ul>
             </div>
         </div>
+    </div>
     </div>
   )
 }

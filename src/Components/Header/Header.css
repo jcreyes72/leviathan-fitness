@@ -1,5 +1,5 @@
 .header {
-    min-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -65,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: co;
+    cursor: pointer;
 }
 
 
@@ -144,7 +144,7 @@
 }
 
 .shipping-deals-button {
-    width: 65%;
+    min-width: 75%;
     height: 44%;
     background-color: rgb(234, 2, 2);
     position: relative;
@@ -165,7 +165,7 @@
     font-size: 12px;
     position: relative;
     text-align: center;
-    align-items: stretch;
+
     width: 100%;
 }
 
@@ -205,15 +205,16 @@
     display: flex;
     align-items:flex-start;
     height: 3rem;
+    flex-wrap: wrap;
 }
 
 .menu-items {
     height: 100%;
-    margin-left: 1.5rem;
-    padding-right: 1.5rem;
     display: flex;
     align-items: flex-start;
     flex: 1;
+    font-size: 15px;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -263,6 +264,8 @@ ul {
     margin-right: 1rem;
 }
 
+
+
 .login-pic {
     color: white;
     font-size: 20px;
@@ -274,16 +277,61 @@ ul {
     margin-left: 1rem;
 }
 
+.icons-right {
+    margin-left: 1em;
+}
+
 .icons-right span {
     color: white;
     margin-left: 0.5em;
+    white-space: nowrap;
 }
 
 
+@media (max-width: 1300px){
+    .menu-items:nth-of-type(6){
+        display: none;
+    }
+}
 
+@media (max-width: 1140px){
+    .menu-items:nth-of-type(9){
+        display: none;
+    }
+}
 
+@media (max-width: 900px){
+    .menu-items:nth-of-type(3){
+        display: none;
+    }
+}
 
+@media (max-width: 790px){
+    .menu-items:nth-of-type(5){
+        display: none;
+    }
+}
 
+@media (max-width: 700px){
+    .menu-items:nth-of-type(2){
+        display: none;
+    }
+    .middle-logo {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 550px){
+    .icons-right{
+        display: none;
+    }
+    .big-logo {
+        font-size: 40px;
+    }
+    .search-container {
+        margin-left:1rem;
+    }
+}
 
 @media (max-width: 1025px) {
     .shipping-deals-container {
@@ -301,5 +349,26 @@ ul {
     }
     .icons-right {
         margin-bottom: 2rem;
+    }
+    .icons-right span {
+        display: none;
+    }
+    .menu-items:nth-of-type(4){
+        display: none;
+    }
+}
+
+@media (max-width: 460px){
+    .menu-items:nth-of-type(7){
+        display: none;
+    }
+}
+
+@media (max-width: 380px){
+    .menu-items:nth-of-type(11){
+        display: none;
+    }
+    .search-container{
+        display: none;
     }
 }
