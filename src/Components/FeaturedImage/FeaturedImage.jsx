@@ -7,6 +7,9 @@ const FeaturedImage = () => {
     <div className="poster-wrapper">
         <div className="big-poster">
             <img src={posterImage} alt="" className='main-image' />
+            <div className="big-text-container">
+                <h3 className='big-text'>TRANSFORM THE WAY YOU TRAIN</h3>
+            </div>
         </div>
     </div>
   )
