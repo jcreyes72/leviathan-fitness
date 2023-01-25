@@ -1,6 +1,6 @@
 import React from 'react'
-import './FeaturedImage.css'
-import posterImage from "../../Images/cover.jpg"
+import './PromoImage.css'
+import posterImage from "../../Images/cover3.jpg"
 
 const FeaturedImage = () => {
   return (
@@ -22,7 +22,9 @@ const FeaturedImage = () => {
                 </h3>
             </div>
             <div className="shop-now-container">
-                <a href="/" className='shop-weightlifting'>SHOP WEIGHTLIFTING</a>
+                <div className="shop-now-button">
+                    <a href="/" className='shop-weightlifting'>SHOP WEIGHTLIFTING</a>
+                </div>
             </div>
         </div>
     </div>

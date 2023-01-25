@@ -1,0 +1,75 @@
+
+
+.big-poster {
+    width: 100%;
+    display: flex;
+    height: auto;
+    position: relative; 
+}
+
+.main-image {
+    width: 100%;
+}
+
+.big-text-container {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    color: white;
+    font-size: 5vw;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.small-text-container {
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 3em;
+    top: 14em;
+    width: 31%;
+    white-space: nowrap;
+}
+
+.small-text span{
+    background-color: black;
+}
+
+.small-text-red {
+    color: rgb(210, 0, 0);
+    background-color: black;
+}
+
+
+.shop-now-container {
+    width: 23%;
+    height: 1.5em;
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    margin-left: 3em;
+    top: 19.5em;
+}
+
+.shop-now-button {
+    background-color: rgb(210, 0, 0);
+    border-radius: 6px;
+    position: relative;
+    white-space:nowrap;
+    text-align: center;
+}
+
+.shop-now-button:hover {
+    background-color: rgb(178, 0, 0);
+}
+
+.shop-weightlifting {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.9vw;
+
+}
+
+
