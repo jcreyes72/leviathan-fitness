@@ -3,29 +3,84 @@
     height: 20rem;
 }
 
+
 .fill {
-    border: 2px solid greenyellow;
     width: 35%;
 }
 
 .tab-header {
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     height: 3em;
-    border: 2px solid magenta;
-    margin: 2em;
+    margin: 2em 2em 0.5em 2em;
     justify-content: space-between;
+    border: 1px solid green;
 }
 
 .section-name {
     font-size: 20px;
     align-self: flex-end;
+    white-space: nowrap;
+}
+
+.tabs-select button {
+    background-color: transparent;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: none;
+}
+
+.tabs-select button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    border: 3px solid yellow;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 
 
 .tabs-select {
-    border: 2px solid rgb(72, 72, 197);
-    align-self: flex-end;
+    border: 1px solid magenta;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
-    width: 35%
+    width: 40%;
 }
+
+.active{
+    font-weight: bold;
+}
+
+.grey-line {
+    background-color: rgb(179, 179, 179);
+    width: auto;
+    height: 1px;
+    margin: 0.5em 2em 0.5em 2em;
+}
+
+@media (max-width: 950px){
+    .tab-header {
+        display: grid;
+    }
+    .tabs-select {
+        width: 100%
+    }
+    .tabs-select button {
+        margin-right: 1em;
+    }
+
+}
+
+
