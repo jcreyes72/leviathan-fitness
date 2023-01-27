@@ -5,6 +5,12 @@ import { Swiper, SwiperSlide, Navigation, Pagination } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import {feature1} from "../../Images/feature1.jpg"
+import {feature2} from "../../Images/feature2.jpg"
+import {feature3} from "../../Images/feature3.jpg"
+import {feature4} from "../../Images/feature4.jpg"
+import {feature5} from "../../Images/feature5.jpg"
+import {feature6} from "../../Images/feature6.jpg"
 
 
 
@@ -39,6 +45,8 @@ const FeaturedProducts = () => {
           <Swiper
             slidesPerView={4}
             spaceBetween={40}
+            slidesPerGroup={1}
+            loop={true}
           >
             <SwiperSlide>1</SwiperSlide>
             <SwiperSlide>2</SwiperSlide>
