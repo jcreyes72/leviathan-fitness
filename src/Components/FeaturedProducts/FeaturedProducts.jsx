@@ -1,6 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
 import "./FeaturedProducts.css"
+import { Swiper, SwiperSlide, Navigation, Pagination } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+
 
 const FeaturedProducts = () => {
 
@@ -27,8 +33,35 @@ const FeaturedProducts = () => {
             </div>
         </div>
         <div className="grey-line"></div>
+
+
+        <div className="s-container">
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={40}
+          >
+            <SwiperSlide>1</SwiperSlide>
+            <SwiperSlide>2</SwiperSlide>
+            <SwiperSlide>3</SwiperSlide>
+            <SwiperSlide>4</SwiperSlide>
+            <SwiperSlide>5</SwiperSlide>
+            <SwiperSlide>6</SwiperSlide>
+            <SwiperSlide>7</SwiperSlide>
+            <SwiperSlide>8</SwiperSlide>
+            <SwiperSlide>9</SwiperSlide>
+            <SwiperSlide>10</SwiperSlide>
+            <SwiperSlide>11</SwiperSlide>
+            <SwiperSlide>12</SwiperSlide>
+
+          </Swiper>
+        </div>
     </div>
     
+    
+    
+
+
+
   )
 }
 

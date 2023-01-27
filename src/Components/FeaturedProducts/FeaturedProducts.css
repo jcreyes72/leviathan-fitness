@@ -77,8 +77,12 @@
     .tabs-select button{
         margin-right: 2em;
     }
-    
-    
+       
 }
+
+.swiper {
+    width: 100%;
+    height: 10em;
+  }
 
 
