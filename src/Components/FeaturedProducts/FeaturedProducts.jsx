@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide, Navigation, Pagination } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import {SliderProducts} from '../../Data/products.js'
 
 const FeaturedProducts = () => {
 
@@ -41,18 +41,19 @@ const FeaturedProducts = () => {
             slidesPerGroup={1}
             loop={true}
           >
-            <SwiperSlide>1</SwiperSlide>
-            <SwiperSlide>2</SwiperSlide>
-            <SwiperSlide>3</SwiperSlide>
-            <SwiperSlide>4</SwiperSlide>
-            <SwiperSlide>5</SwiperSlide>
-            <SwiperSlide>6</SwiperSlide>
-            <SwiperSlide>7</SwiperSlide>
-            <SwiperSlide>8</SwiperSlide>
-            <SwiperSlide>9</SwiperSlide>
-            <SwiperSlide>10</SwiperSlide>
-            <SwiperSlide>11</SwiperSlide>
-            <SwiperSlide>12</SwiperSlide>
+              {SliderProducts.map((slide, i)=> (
+                <SwiperSlide>
+                  <div className="product-image">
+                    <img src={slide.img} alt="product" className='img-p' />
+                  </div>
+                  <div className="left-s">
+                    <div className="name">
+                      <span> {slide.name} </span>
+                    </div>
+                    <span>${slide.price}.00</span>
+                  </div>
+                </SwiperSlide>
+              ))}
 
           </Swiper>
         </div>

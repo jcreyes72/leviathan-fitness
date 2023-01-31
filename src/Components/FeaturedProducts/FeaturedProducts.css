@@ -80,9 +80,27 @@
        
 }
 
-.swiper {
+
+.s-container {
+    position: relative;
+}
+
+.s-container .swiper {
+    width: 90%;
+    height: auto;
+    position: unset;
+}
+
+.s-container .swiper-slide {
+    border: 2px solid blue;
+    box-sizing: border-box;
+    display: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-p {
+    border: 2px solid magenta;
     width: 100%;
-    height: 10em;
-  }
-
-
+    height: 100%;
+}
