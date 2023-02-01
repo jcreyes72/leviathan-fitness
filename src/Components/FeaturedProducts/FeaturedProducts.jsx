@@ -52,7 +52,6 @@ const FeaturedProducts = () => {
             slidesPerView={4}
             spaceBetween={30}
             slidesPerGroup={4}
-            loopFillGroupWithBlank={true}
             centerInsufficientSlides={true}
             speed={1500}
             loop={true}

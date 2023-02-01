@@ -5,6 +5,7 @@ import PromoImage from './Components/PromoImage/PromoImage'
 import FeaturedProducts from './Components/FeaturedProducts/FeaturedProducts'
 import ShippingDeals from './Components/ShippingDeals/ShippingDeals'
 import ShoesAndGear from './Components/ShoesAndGear/ShoesAndGear'
+import PopularCategory from './Components/PopularCategory/PopularCategory'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <FeaturedProducts/>
       <ShippingDeals/>
       <ShoesAndGear/>
+      <PopularCategory/>
     </div>
   )
 }
