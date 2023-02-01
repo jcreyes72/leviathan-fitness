@@ -1,0 +1,43 @@
+.shoes-gear-wrapper {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.product-images {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.product-images:nth-of-type(1){
+    margin-left: 2em;
+    margin-right: 1em;
+}
+.product-images:nth-of-type(2){
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.shoes, .gear {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.product-title {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.shop-now {
+    font-weight: lighter;
+    margin-top: 0.5em;
+    text-decoration: underline;
+}

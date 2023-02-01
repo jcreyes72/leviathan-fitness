@@ -1,0 +1,21 @@
+.section-wrapper-deals {
+    position: relative;
+    
+}
+
+.deals-container {
+    margin-left: 2em;
+    margin-right: 2em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.daily-deals {
+    height: auto;
+    width: 100%;
+}
+
+
