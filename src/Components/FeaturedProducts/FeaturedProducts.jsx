@@ -1,14 +1,13 @@
-import React from 'react'
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./FeaturedProducts.css"
-import { Swiper, SwiperSlide, Navigation, Pagination } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {SliderProducts} from '../../Data/products.js'
 
 const FeaturedProducts = () => {
-
   const [active, setActiveTab] = useState(0);
 
   // event handler for button clicks
@@ -16,6 +15,20 @@ const FeaturedProducts = () => {
     setActiveTab(e.target.value)
   }
 
+  // Filter the products based on the active category
+  const filteredProducts = SliderProducts.filter(product => {
+    if (active === 1) return product.category.includes("featured");
+    if (active === 2) return product.category.includes("crossfit");
+    if (active === 3) return product.category.includes("powerlifting");
+    if (active === 4) return product.category.includes("olympic");
+    if (active === 5) return product.category.includes("strongman");
+    return true;
+  });
+
+  useEffect(() => {
+    setActiveTab(1);
+  }, []);
+  
   return (
     <div className="section-wrapper">
         <div className="tab-header">
@@ -37,11 +50,17 @@ const FeaturedProducts = () => {
         <div className="s-container">
           <Swiper
             slidesPerView={4}
-            spaceBetween={40}
-            slidesPerGroup={1}
+            spaceBetween={30}
+            slidesPerGroup={4}
+            loopFillGroupWithBlank={true}
+            centerInsufficientSlides={true}
+            speed={1500}
             loop={true}
+            navigation={true}
+            modules={[Navigation, Pagination]}
+            className='my-swiper'
           >
-              {SliderProducts.map((slide, i)=> (
+              {filteredProducts.map((slide, i)=> (
                 <SwiperSlide>
                   <div className="product-image">
                     <img src={slide.img} alt="product" className='img-p' />
@@ -50,7 +69,6 @@ const FeaturedProducts = () => {
                     <div className="name">
                       <span> {slide.name} </span>
                     </div>
-                    <span>${slide.price}.00</span>
                   </div>
                 </SwiperSlide>
               ))}
@@ -58,13 +76,8 @@ const FeaturedProducts = () => {
           </Swiper>
         </div>
     </div>
-    
-    
-    
-
-
-
   )
 }
+
 
 export default FeaturedProducts

@@ -83,6 +83,8 @@
 
 .s-container {
     position: relative;
+    margin-top: 1em;
+    width: 100%;
 }
 
 .s-container .swiper {
@@ -92,15 +94,34 @@
 }
 
 .s-container .swiper-slide {
-    border: 2px solid blue;
     box-sizing: border-box;
     display: column;
     overflow: hidden;
     position: relative;
 }
 
+.s-container .swiper-button-prev {
+    left: 1rem;
+}
+
+.s-container .swiper-button-next {
+    right: 1rem;
+}
+
+.s-container .swiper-button-next, .s-container .swiper-button-prev {
+    color: black;
+}
+
 .img-p {
-    border: 2px solid magenta;
     width: 100%;
     height: 100%;
+    border-radius: 3px;
+}
+
+.name {
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    white-space: nowrap;
+    width: 100%;
+
 }
