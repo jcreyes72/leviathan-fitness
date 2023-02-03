@@ -7,6 +7,8 @@ import ShippingDeals from './Components/ShippingDeals/ShippingDeals'
 import ShoesAndGear from './Components/ShoesAndGear/ShoesAndGear'
 import PopularCategory from './Components/PopularCategory/PopularCategory'
 import ZeusAndCrossfit from './Components/ZeusAndCrossfit/ZeusAndCrossfit'
+import Footer from './Components/Footer/Footer'
+import PreFooter from './Components/PreFooter/PreFooter'
 
 
 
@@ -21,6 +23,7 @@ const App = () => {
       <ShoesAndGear/>
       <PopularCategory/>
       <ZeusAndCrossfit/>
+      <PreFooter/>
       
     </div>
   )
