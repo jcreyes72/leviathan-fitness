@@ -1,4 +1,4 @@
-.footer-wrapper {
+.pre-footer-wrapper {
     width: 100%;
     margin-top: 5rem;
     display: flex;
@@ -6,14 +6,30 @@
     position: relative;
 }
 
-.footer-box {
+.pre-footer-box {
     width: 25%;
     border: 0.5px solid rgb(165, 165, 165);
     display: grid;
+    position: relative;
     align-items: center;
     justify-content: center;
-    max-height: 100%;
     padding: 1em;
+}
+
+.pre-footer-box:hover {
+    cursor: pointer;
+}
+
+.pre-footer-box .text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pre-footer-box span:nth-of-type(2){
+    padding-top: 0.7em;
+    font-size: 16px;
 }
 
 .icon-wrapper {
@@ -25,11 +41,18 @@
 }
 
 .icon {
-    width: auto;
     color: black;
     font-size: 45px;
 }
 
-.footer-box .text-box:nth-of-type(1) {
+.pre-footer-box .text-box:nth-of-type(1) {
     font-weight: bold;
+}
+
+.click {
+    text-decoration: none;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 13px;
+    color: inherit;
 }

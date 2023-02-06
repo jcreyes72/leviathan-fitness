@@ -1,0 +1,63 @@
+.footer-wrapper {
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.main-container {
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.link-column {
+    position: relative;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.actions{
+    width: 40%;
+}
+
+.column-section {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+}
+
+.shopping, .other-info, .contact{
+    margin-top: 1em;
+}
+
+
+
+.link-container {
+    display: grid;
+    width: 100%;
+}
+
+.small-link {
+    margin-top: 1.5em;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+.address {
+    margin-top: 2em;
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+    display: grid;
+}
+
+.address span:nth-of-type(1){
+    font-weight: bold;
+}
+

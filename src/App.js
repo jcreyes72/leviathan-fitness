@@ -24,6 +24,7 @@ const App = () => {
       <PopularCategory/>
       <ZeusAndCrossfit/>
       <PreFooter/>
+      <Footer/>
       
     </div>
   )
