@@ -82,7 +82,7 @@ const Footer = () => {
             <div className="address">
               <span>Leviathan Fitness HQ</span>
               <span>555 E 3rd Ave.</span>
-              <span>Myrtle Beach, SC, 29577</span>
+              <span>Madison, WI, 53288</span>
             </div>
         </div>
         <div className="link-column actions">
