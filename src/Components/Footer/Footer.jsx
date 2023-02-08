@@ -4,7 +4,8 @@ import {BsFacebook as Facebook} from "react-icons/bs"
 import {BsInstagram as Instagram} from "react-icons/bs"
 import {BsTwitter as Twitter} from "react-icons/bs"
 import {BsYoutube as YouTube} from "react-icons/bs"
-import {BsCircleFill as IconFrame} from "react-icons/bs"
+import {GiSmartphone as Phone} from "react-icons/gi"
+
 
 
 
@@ -88,21 +89,36 @@ const Footer = () => {
           <div className="connect-container">
             Connect
             <div className="icon-container">
-              <IconFrame className='icon-frame'/>
-              <IconFrame className='icon-frame'/>
-              <IconFrame className='icon-frame'/>
-              <IconFrame className='icon-frame'/>
+              <Instagram className='social-icons'/>
+              <Facebook className='social-icons'/>
+              <Twitter className='social-icons'/>
+              <YouTube className='social-icons'/>
+            </div>
+            <div className="news-signup">
+              Newsletter Signup
+                <div className="icon-container newsletter">
+                  Sign up for our Newsletter with Leviathan News and Product Releases.
+                </div>
             </div>
           </div>
           <div className="connect-container app">
-            <div className="icon-container">ICONS</div>
+            App
+            <div className="icon-container phone">
+              <Phone className='social-icons'/>
+            </div>
           </div>
 
+
+
         </div>
+
+  
+
+      
       </div>
       <div className="mark">
-        <div className="leviathan-logo">logo</div>
-        <div className="copyright">copyright</div>
+        <div className="leviathan-logo">LEVIATHAN</div>
+        <div className="copyright">© 2010-2023 Leviathan Fitness. All Rights Reserved.</div>
       </div>
     </div>
   )
