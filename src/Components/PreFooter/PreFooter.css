@@ -4,10 +4,12 @@
     display: flex;
     justify-content: center;
     position: relative;
+    
 }
 
 .pre-footer-box {
     width: 25%;
+
     border: 0.5px solid rgb(165, 165, 165);
     display: grid;
     position: relative;
@@ -55,4 +57,14 @@
     margin-bottom: 1.5em;
     font-size: 13px;
     color: inherit;
+}
+
+
+@media (max-width: 600px) {
+    .pre-footer-box span:nth-of-type(2){
+        display: none;
+    }
+    .pre-footer-box .click{
+        display: none;
+    }
 }

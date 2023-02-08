@@ -1,6 +1,6 @@
 .footer-wrapper {
     background-color: black;
-    width: 100%;
+    
     color: white;
     position: relative;
 }
@@ -18,13 +18,14 @@
     margin-left: 1em;
 }
 
+
 .column-section {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
     white-space: nowrap;
-    width: auto;
+    
 }
 
 .shopping, .other-info, .contact{
@@ -35,7 +36,7 @@
 
 .footer-link-container {
     display: grid;
-    width: 100%;
+    
 }
 
 .small-link {
@@ -97,9 +98,11 @@
     justify-content: flex-start;
 }
 
+
 .social-icons {
     color:rgb(163, 163, 163);
     font-size:35px;
+    padding: 2px;
 }
 
 
@@ -119,6 +122,7 @@
     cursor: pointer;
 }
 
+
 .mark {
     display: grid;
     justify-content: center;
@@ -126,6 +130,7 @@
     text-align: center;
     padding-bottom: 2em;
 }
+
 
 .leviathan-logo {
     font-size: 18px;
@@ -140,3 +145,11 @@
     font-size: 13px;
     color: rgb(163, 163, 163);
 }
+
+
+@media (max-width: 975px) {
+    .footer-wrapper {
+        display: none;
+    }
+}
+

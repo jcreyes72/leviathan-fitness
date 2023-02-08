@@ -19,3 +19,32 @@
 }
 
 
+.small {
+    display: none;
+}
+
+.smallest {
+    display: none;
+}
+
+
+@media (max-width: 800px) {
+    .big {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .small {
+        display: none;
+    }
+    .smallest {
+        display: block;
+    }
+}
+
+
