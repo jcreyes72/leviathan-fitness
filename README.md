@@ -10,7 +10,7 @@ Each component of the website is given its individual directory, including a JSX
 ### Features ✅
 * Responsive design using media queries
 * Clean and organized component-based structure
-* useState and useEffect React Hooks for quick website updates 
+* useState and useEffect React Hooks for quick updates to the site 
 
 ### Running the Code Locally 🏠
 1) Clone the repoistory to your local machine
