@@ -1,5 +1,5 @@
 # Leviathan Fitness Website 🏋️‍♂️
-This is the frontend code for a mock fitness website that sells gym equipment. The website is built using React and incorporates media queries for a responsive design.
+This is the frontend code for a mock fitness website that sells gym equipment. The website is built using React and incorporates media queries for a responsive design. I created this project to get some more experience with building front end products with React and CSS.
 
 ## Deployment 👨‍💻
 The website has been deployed and can be viewed at the following URL: https://leviathan-fitness.pages.dev/
